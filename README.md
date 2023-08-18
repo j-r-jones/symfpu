@@ -4,8 +4,8 @@ SymFPU : The Symbolic Floating Point Unit
 SymFPU is an implementation of the SMT-LIB / IEEE-754 operations in
 terms of bit-vector operations.  It is templated in terms of the
 bit-vectors, propositions, floating-point formats and rounding mode
-types used.  This allow the same code to be executed as an arbitrary
-precision "SoftFloat" library (although it's performance would not be
+types used.  This allows the same code to be executed as an arbitrary
+precision "SoftFloat" library (although its performance would not be
 good) or to be used to build symbolic representation of floating-point
 operations suitable for use in "bit-blasting" SMT solvers (you could
 also generate circuits from them but again, performance will likely
